@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Datatable plugin CSS file -->
+    <link rel="stylesheet" href=
+"https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" />
+    <!-- jQuery library file -->
+    <script type="text/javascript" 
+        src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+    <!-- Datatable plugin JS library file -->
+    <script type="text/javascript" src=
+"https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
+    </script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+ <style>
+    #tableid{
+        width:200%;
+    }
+        body {
+                background-color:rgb(rgb(189, 113, 113))
+            }
+            table, th, td {
+                border: 1px solid black;
+                border:2px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            table{
+                border-spacing: 30px;
+                width:200%;
+            }
+ </style>
+ 
+</head>
+<body onload="getItems()">
+    <table id="tableid"style="width:100%"  class="table table-striped">
+        <thead>
+            <tr class = "div">
+                <th>ID</th>
+                <th> A_NAME</th>
+                <th>PHONENO</th>
+                <th>FLATNO</th>
+                <th>STREET</th>
+                <th>CITY</th>
+                <th>STATE</th>
+                <th>COUNTRY</th>
+                <th>PINCODE</th>
+                <th>CATEGORY</th>
+                <th>SUB_CATEGORY</th>
+                <th>OPEN_TIME</th>
+                <th>CLOSE_TIME</th>
+                <th>RATINGS</th>
+
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>

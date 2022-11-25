@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    <title>Document</title>
+</head>
+
+<style>
+   body {
+  background-image: url('./image/key.jpg');
+}
+</style>
+
+<body>
+<center>   <h1>Free Listing</h1>  </center>
+<br>
+<br>
+<center>
+    <form action="home.html">
+        <label for="cname">Company Name:</label>
+        <input type="text" id="cname" name="cname"><br><br>
+        <br>
+        
+        <select id="title" name="Title">
+            <option value="none" selected disabled hidden>Title</option>
+            <option value="Mr.">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Ms">Ms</option>
+            <option value="Dr">Dr</option>
+        </select>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <br>
+        <label for="mno">Mobile No:</label>
+        <input type="text" id="mno" name="mno"><br><br>
+        <br>
+        <label for="lno">Landline No:</label>
+        <input type="text" id="lno" name="lno"><br><br>
+        <br>
+        <br>
+
+        <button onclick="pageselect()">Submit</button>
+        
+    </form>
+</center>
+
+</body>
+
+</html>
